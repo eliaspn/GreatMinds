@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<head>
+
+<meta charset="UTF-8">
+<meta name="author" content="Elias Debs">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1">
+<meta name="description" content="A list of great minds">
+<meta name="keywords" content="thinkers, great minds, famous people, science">
+
+<title>Great minds</title>
+<link rel="stylesheet" href="css/global.css">
+<body>
+
+<figure>
+  <figcaption>
+    <strong id="gm-caption">A list of great minds</strong><br>
+    <span id="gm-summary">The thrird collumn shows more details about the person </span>
+  </figcaption>
+</figure>
+
+<section class="greatmindapp">Hold on, it's loading! <div class="loader">Loading...</div></section> <!-- The Root DOM  -->
+
+<script src="node_modules/react/dist/react.js"></script>
+<script src="node_modules/react-dom/dist/react-dom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0-alpha1/JSXTransformer.js"></script> <!-- This is Deprecated, Migrate to Babel -->
+<script src="node_modules/classnames/index.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/underscore/underscore.js"></script>
+<script src="node_modules/backbone/backbone.js"></script>
+<script src="node_modules/backbone-react-component/dist/backbone-react-component.js"></script>
+
+<script src="js/person.js"></script>
+<script src="js/persons.js"></script>
+
+<script type="text/jsx" src="js/personDetails.jsx"></script>
+<script type="text/jsx" src="js/personItem.jsx"></script>
+<script type="text/jsx" src="js/app.jsx"></script>
+</body>
+
+</html>
